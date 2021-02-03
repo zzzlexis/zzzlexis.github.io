@@ -1,7 +1,8 @@
-import React from 'react'
+import React from "react";
+import Image from "next/image";
 
 const SecondPage = () => {
-    return <div>This is my second page.</div>
-}
+  return <div className="bg-blue-400">This is my second page. Welcome!!</div>;
+};
 
-export default SecondPage
+export default SecondPage;
