@@ -5,7 +5,7 @@ import Link from "next/link";
 import React, { useState } from "react";
 
 // Define our page with anonymous functions
-const ListItem = ({ children }) => (
+const ListItem: React.FC = ({ children }) => (
   <li className="mr-2 text-2xl font-medium">{children}</li>
 );
 
