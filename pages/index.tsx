@@ -9,7 +9,7 @@ const ListItem: React.FC = ({ children }) => (
   <li className="mr-2 text-2xl font-medium">{children}</li>
 );
 
-const Layout = ({ children }) => {
+const Layout: React.FC = ({ children }) => {
   return (
     <div>
       {" "}
