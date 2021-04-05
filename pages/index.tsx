@@ -3,6 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
+import Head from "next/head";
 
 // Define our page with anonymous functions
 const ListItem: React.FC = ({ children }) => (
@@ -43,6 +44,9 @@ const Layout: React.FC = ({ children }) => {
 const IndexPage = () => {
   return (
     <div>
+      <Head>
+        <title>Alexis Cotton's Personal Site</title>
+      </Head>
       <Layout>
         {" "}
         <div className="container mx-auto flex">
